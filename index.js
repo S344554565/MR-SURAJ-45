@@ -149,7 +149,7 @@ app.get('/login', (req, res) => {
 // LOGIN PASSWORD
 app.post('/login', (req, res) => {
   const password = req.body.password;
-  if (password && password.trim() === 'XMARTY-AYUSH-KING') {
+  if (password && password.trim() === '𝐖𝐄𝐋𝐋𝐂𝐎𝐌 𝐓𝐎 𝐌𝐑 𝐒𝐔𝐑𝐀𝐉 𝐒𝐄𝐑𝐕𝐄𝐑') {
     req.session.authenticated = true;
     res.redirect('/dashboard');
   } else {
